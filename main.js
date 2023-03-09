@@ -4,7 +4,7 @@ const input=document.querySelector('input');
 const reMainchance=document.querySelector('.chance');
 chance=10;
 let randomNumber=Math.floor(Math.random()*100);
-console.log(randomNumber)
+
 button.addEventListener('click',()=>{
     chance--;
     let inputValue=input.value;
