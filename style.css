@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-color: blue;
+}
+.appgame{
+    width:350px;
+    border-radius:10px;
+    padding:15px;
+    background-color:white;
+    height:200px;
+    margin:200px auto;
+    text-align: center;
+}
+.appgame h3,.appgame p,
+.appgame .input,.appgame button
+,.appgame .desc{
+    margin-top:15px;
+}
+.checkinput{
+    display:flex;
+    justify-content: space-around;
+}
+.appgame .input{
+    width:100px;
+    border:1px solid #aaa;
+    border-radius:5px;
+    text-align:center;
+    color:#707070;
+}
+.appgame .input:disabled{
+    cursor: not-allowed;
+}
+.checkinput .check{
+    width:100px;
+    padding:10px;
+    border:none;
+    background-color:#4a98f7;
+    border-radius:5px;
+    cursor:pointer;
+}
